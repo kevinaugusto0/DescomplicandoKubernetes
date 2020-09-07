@@ -1223,7 +1223,7 @@ Voltando à nossa linha de raciocínio, para acompanhar o rollout, execute o seg
 kubectl rollout status ds daemon-set-primeiro
 ```
 
-Vamos confirmar se já estamos executando a nova imagem e um dos nosso pods:
+Vamos confirmar se já estamos executando a nova imagem em um dos nosso pods:
 
 ```
 kubectl describe pod daemon-set-primeiro-hp4qc | grep -i image:
